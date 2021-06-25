@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend deca", sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: 20px;
+}
+
+.box1 {
+    border-radius: 1px solid none;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "Big shoulders display", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bt1,
+.bt2,
+.bt3 {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.bt1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.bt2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.bt3 {
+    color: hsl(179, 100%, 13%);
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    color: #ffff;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    color: #ffff;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    color: #ffff;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45% 44%);
+}
+
+@media (min-width: 800px) {
+    .container {
+        display: flex;
+        margin: 100px;
+    }
+}
